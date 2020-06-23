@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App; 
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -17,7 +17,7 @@ class Image extends Model
 
     // Relacion One To Many
 
-    function like()
+    public function like()
     {
     	return $this->hasMany('App\Like');
     }
