@@ -10,7 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-use App\Image;
+//use App\Image;
 
 Route::get('/', function () {
 
